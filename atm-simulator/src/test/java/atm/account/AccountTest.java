@@ -19,7 +19,7 @@ public class AccountTest{
 
     @Test
     public void whenAccountIsCreatedThenBalanceIsReturned(){
-        Assertions.assertEquals(100, account.balance());
+        Assertions.assertEquals("100", account.balance());
     }
 
 }
